@@ -4,6 +4,7 @@ export const { styled, globalCss, keyframes, getCssText, theme } =
   createStitches({
     theme: {
       colors: {
+        primayDefault: '#653DF5',
         primayLight: '#CCBEFF',
         primayDark: '#4D1CFF',
 
