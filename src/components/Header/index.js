@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../assets/logo-codeboost.svg';
 import { HeaderStyle } from './styles';
 import { Container } from '../../styles/global';
 
@@ -10,7 +8,9 @@ export function Header() {
       <Container>
         <div className="logo">
           <Link href="/">
-            <Image src={Logo} alt="Logo do projeto" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <strong>Lucas S.</strong>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
           </Link>
         </div>
         <nav className='navigation'>

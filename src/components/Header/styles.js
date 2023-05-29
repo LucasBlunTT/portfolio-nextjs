@@ -15,6 +15,19 @@ export const HeaderStyle = styled('header', {
     justifyContent: 'space-between',
     height: '100%',
 
+    '.logo': {
+      a: {
+        display: 'flex',
+        alignItems: 'center',
+
+        strong: {
+          fontWeight: 500,
+          fontSize: 16,
+          color: 'white',
+        },
+      },
+    },
+
     ul: {
       display: 'flex',
       alignItems: 'center',
