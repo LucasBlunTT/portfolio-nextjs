@@ -7,7 +7,7 @@ export const HeaderStyle = styled('header', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  backgroundColor: '$backgrounColorDefault',
+  background: '$backgrounColorDefault',
 
   [`${Container}`]: {
     display: 'flex',

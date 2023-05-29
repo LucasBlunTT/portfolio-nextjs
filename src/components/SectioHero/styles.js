@@ -2,8 +2,8 @@ import { styled } from "@stitches/react";
 import { Container } from "../../styles/global";
 
 export const SectionStyle = styled('section', {
-    padding: '112 ',
-    backgroundColor: '$backgrounColorDefault',
+    padding: 112,
+    background: '$backgrounColorDefault',
 
     [`${Container}`]: {
         display: 'flex',
