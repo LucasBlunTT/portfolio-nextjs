@@ -1,6 +1,5 @@
 import { Container } from "../../styles/global";
 import { BadgeStyle } from "./styles";
-import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
