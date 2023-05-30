@@ -1,4 +1,5 @@
 import { Badge } from '../components/Badge';
+import { Differential } from '../components/Differential';
 import { Header } from '../components/Header';
 import { PageTitle } from '../components/PageTitle';
 import { SectionHero } from '../components/SectioHero';
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <SectionHero />
       <Badge />
+      <Differential />
     </>
   );
 }
