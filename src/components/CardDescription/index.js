@@ -1,18 +1,17 @@
 import { CardStyle } from "./styles";
-import codePc from "../../assets/pcCode.svg"
 import Image from "next/image";
 
-export function CardDescription() {
+export function CardDescription({image, titleDescription, description}) {
     return (
         <CardStyle>
             <div className="icon">
-                <Image src={codePc} alt="Imagem PC com código dentro" />
+                <Image src={image} alt="Imagem description" />
             </div>
             <h3>
-                Beyond the front end
+                {titleDescription}
             </h3>
             <p>
-                Proin commodo orci sed magna consectetur elementum.
+                {description}
             </p>
         </CardStyle>
     )
