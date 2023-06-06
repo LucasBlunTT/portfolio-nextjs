@@ -3,6 +3,7 @@ import { Differential } from '../components/Differential';
 import { Header } from '../components/Header';
 import { PageTitle } from '../components/PageTitle';
 import { SectionHero } from '../components/SectioHero';
+import { SectionCases } from '../components/SectionCases';
 import { SectionProfileCard } from '../components/SectionProfileCard';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Badge />
       <Differential />
       <SectionProfileCard />
+      <SectionCases />
     </>
   );
 }
