@@ -13,19 +13,22 @@ export function Badge() {
 
     const skills = [
         {
-            skill: 'Front end'
+            skill: 'Front End'
         },
         {
-            skill: '{...} Desenvolvimento'
+            skill: 'NEXT JS'
         },
         {
-            skill: 'Frameworks'
+            skill: 'REACT JS'
         },
         {
-            skill: 'Especialista'
+            skill: 'Styled Components'
         },
         {
-            skill: '</> Code'
+            skill: 'GULP'
+        },
+        {
+            skill: 'SASS'
         }
     ];
 

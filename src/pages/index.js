@@ -18,7 +18,7 @@ export default function Home() {
       <SectionHero />
       <Badge />
       <Differential />
-      <SectionProfileCard />
+      {/*<SectionProfileCard />*/}
       <SectionCases />
     </>
   );

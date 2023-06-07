@@ -36,10 +36,14 @@ export const SectionCasesStyle = styled('section', {
         ".swiper": {
             height: 473,
             borderRadius: 4,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
 
             ".swiper-slide": {
                 display: 'flex',
-                alignItems: 'flex-start',
+                alignItems: 'center',
+                justifyContent: 'center',
 
                 ".image": {
                     display: 'flex',
@@ -49,8 +53,8 @@ export const SectionCasesStyle = styled('section', {
                     borderRadius: 4,
 
                     img: {
-                        width: '80%',
-                        height: '80%',
+                        width: '70%',
+                        height: '100%',
                         objectFit: 'cover',
                         transition: 'transform 0.3s ease-in'
                     },
@@ -63,6 +67,10 @@ export const SectionCasesStyle = styled('section', {
                         },
                     },
                 },
+            },
+
+            ".swiper-pagination": {
+                bottom: -4,
             },
         },
     },

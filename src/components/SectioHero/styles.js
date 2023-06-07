@@ -2,7 +2,7 @@ import { styled } from "@stitches/react";
 import { Container } from "../../styles/global";
 
 export const SectionStyle = styled('section', {
-    padding: 112,
+    padding: '112px 0px',
     background: '$backgrounColorDefault',
 
     [`${Container}`]: {
@@ -60,9 +60,10 @@ export const SectionStyle = styled('section', {
         '.hero-right': {
             width: '100%',
             maxWidth: 520,
-            objectFit: 'cover',
 
             img: {
+                objectFit: 'cover',
+                width: '100%',
                 height: 673,
             },
 
