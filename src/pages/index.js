@@ -1,5 +1,6 @@
 import { Badge } from '../components/Badge';
 import { Differential } from '../components/Differential';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { PageTitle } from '../components/PageTitle';
 import { SectionHero } from '../components/SectioHero';
@@ -20,6 +21,7 @@ export default function Home() {
       <Differential />
       {/*<SectionProfileCard />*/}
       <SectionCases />
+      <Footer />
     </>
   );
 }

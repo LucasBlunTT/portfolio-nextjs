@@ -1,22 +1,21 @@
+import Link from 'next/link';
 import { FooterStyle } from './styles';
-import Image from 'next/image';
 import { Container } from '../../styles/global';
-import LogoCodeboot from '../../assets/logo-codeboost.svg';
 
 export function Footer() {
   return (
     <FooterStyle>
       <Container>
-        <div>
-          <strong>©2022 CodeBoost</strong>
-          <p>
-            O curso Codeboost foi desenvolvido por William Moreira. As vagas são
-            distribuídas por turmas de forma sazonal. Caso perca alguma
-            oportunidade é só aguardar a próxima turma que normalmente acontece
-            dentro do período de 3 a 4 meses.
-          </p>
+        <div className="logo">
+          <Link href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            <strong>Lucas S.</strong>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </Link>
         </div>
-        <Image src={LogoCodeboot} alt="Codeboost" />
+        <span>
+          Copyright 2023 - Todos os direitos reservados a Lucas da Silva
+        </span>
       </Container>
     </FooterStyle>
   );
