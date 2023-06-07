@@ -19,14 +19,14 @@ export default function Document() {
           id="stiches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         ></style>
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
-          
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
       </Head>
       <body>
         <Main />
         <NextScript />
-        <script>AOS.init();</script>
+        {/*<script>AOS.init();</script>*/}
       </body>
     </Html>
   );

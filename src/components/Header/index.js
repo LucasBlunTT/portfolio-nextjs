@@ -16,8 +16,8 @@ export function Header() {
         <nav className='navigation'>
           <ul>
             <li key={1}><Link href="/">Quem sou</Link></li>
-            <li key={2}><Link href="/">Cases</Link></li>
-            <li key={3}><Link href="/">Contato</Link></li>
+            <li key={2}><Link href="/">Diferenciais</Link></li>
+            <li key={3}><Link href="/">Cases</Link></li>
           </ul>
         </nav>
       </Container>

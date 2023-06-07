@@ -43,9 +43,9 @@ export function Badge() {
                     className="mySwiper"
                 >
                     {
-                        skills.map(({ skill }) => {
+                        skills.map(({ skill }, index) => {
                             return (
-                                <SwiperSlide>{skill}</SwiperSlide>
+                                <SwiperSlide key={index}>{skill}</SwiperSlide>
                             )
                         })
                     }

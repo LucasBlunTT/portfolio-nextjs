@@ -23,7 +23,7 @@ export function SectionHero() {
                     </Link>
                 </div>
                 <div className="hero-right">
-                    <Image src={LucasProfile} alt="Imagem Will" />
+                    <Image src={LucasProfile} alt="Imagem Lucas" priority={true} />
                 </div>
             </Container>
         </SectionStyle>
