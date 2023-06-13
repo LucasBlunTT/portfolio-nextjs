@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled } from '../../styles';
 import { Container } from "../../styles/global";
 
 export const BadgeStyle = styled('section', {
@@ -36,4 +36,32 @@ export const BadgeStyle = styled('section', {
             right: 0
         },
     },
+
+    '@lg': {
+        height: 88,
+        display: 'flex',
+        alignItems: 'center',
+    },
+
+    '@sm': {
+        height: 88,
+        display: 'flex',
+        alignItems: 'center',
+
+        '.swiper': {
+            width: '100% !important',
+            '.swiper-slide': {
+                width: '100% !important',
+                maxWidth: '24%',
+            }
+        },
+    },
+
+    '@xs': {
+        '.swiper':{
+            '.swiper-slide': {
+                padding: '11px 4px'
+             },
+        },
+    }
 });
