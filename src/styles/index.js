@@ -20,6 +20,7 @@ export const { styled, globalCss, keyframes, getCssText, theme } =
         backgrounColorDefault: 'linear-gradient(0deg, #050610, #050610), rgba(255, 255, 255, 0.02)'
       },
     },
+
     media: {
       xxs: '(max-width: 360px)',
       xs: '(max-width: 414px)',

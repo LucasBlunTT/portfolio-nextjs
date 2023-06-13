@@ -69,5 +69,6 @@ export const HeaderStyle = styled('header', {
     '*': {
       fontSize: '8px !important',
     },
-  }
+  },
+
 });
