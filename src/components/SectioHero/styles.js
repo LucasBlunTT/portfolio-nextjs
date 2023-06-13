@@ -168,6 +168,14 @@ export const SectionStyle = styled('section', {
         },
     },
 
+    '@md': {
+        '.hero-left': {
+            p: {
+                fontSize: '11px !important',
+            },
+        },
+    },
+
     '@sm': {
         padding: '22px 0',
 
@@ -240,7 +248,7 @@ export const SectionStyle = styled('section', {
 
                 h5: {
                     textAlign: 'center',
-                    fontSize: 9,
+                    fontSize: 18,
                     marginBottom: 8,
                 },
 
