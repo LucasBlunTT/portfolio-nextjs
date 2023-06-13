@@ -137,7 +137,7 @@ export const SectionStyle = styled('section', {
 
         [`${Container}`]: {
             '.hero-left': {
-                maxWidth: 358,
+                maxWidth: 418,
                 marginTop: 20,
 
                 h5: {
