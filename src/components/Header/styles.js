@@ -9,6 +9,7 @@ export const HeaderStyle = styled('header', {
   justifyContent: 'space-between',
   background: '$backgrounColorDefault',
 
+
   [`${Container}`]: {
     display: 'flex',
     alignItems: 'center',
@@ -47,4 +48,26 @@ export const HeaderStyle = styled('header', {
       }
     }
   },
+
+  '@xxs': {
+    '*': {
+      fontSize: '8px !important',
+    },
+  },
+
+  '@sm': {
+    height: 73,
+
+    '*': {
+      fontSize: '10px !important',
+    },
+  },
+
+  '@xs': {
+    height: 50,
+
+    '*': {
+      fontSize: '8px !important',
+    },
+  }
 });
