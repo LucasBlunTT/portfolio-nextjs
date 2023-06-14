@@ -98,6 +98,10 @@ export const SectionCasesStyle = styled('section', {
 
         '.slide-cases': {
             height: 235,
+
+            '.swiper': {
+                height: 191,
+            }
         },
     },
 })

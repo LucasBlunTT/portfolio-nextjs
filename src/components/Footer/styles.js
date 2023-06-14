@@ -1,7 +1,7 @@
 import { styled } from '../../styles';
 import { Container } from '../../styles/global';
 
-export const FooterStyle = styled('header', {
+export const FooterStyle = styled('footer', {
   width: '100%',
   height: 100,
   display: 'flex',
@@ -11,27 +11,34 @@ export const FooterStyle = styled('header', {
   [`${Container}`]: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     height: '100%',
-
-    '.logo': {
-      a: {
-        display: 'flex',
-        alignItems: 'center',
-
-        strong: {
-          fontWeight: 500,
-          fontSize: 16,
-          color: 'white',
-        },
-      },
-    },
 
     span: {
       fontWeight: 400,
-      fontSize: 16,
+      fontSize: 11,
       textlign: 'center',
       color: '$gray100'
     }
+  },
+
+  '@sm': {
+    height: 81,
+
+    [`${Container}`]: {
+      justifyContent: 'center',
+    },
+  },
+
+  '@xs': {
+    height: 81,
+
+    [`${Container}`]: {
+      justifyContent: 'center',
+
+      span: {
+        fontSize: 8,
+      },
+    },
   },
 });
