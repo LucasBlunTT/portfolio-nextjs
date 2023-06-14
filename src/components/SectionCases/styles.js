@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react"
+import { styled } from '../../styles';
 
 export const SectionCasesStyle = styled('section', {
     padding: '11.7rem 11.2rem',
@@ -8,7 +8,6 @@ export const SectionCasesStyle = styled('section', {
         display: 'flex',
         alignItems: 'flex-end',
         justifyContent: 'space-between',
-        marginBottom: 112,
 
         h2: {
             textAlign: 'center',
@@ -31,7 +30,7 @@ export const SectionCasesStyle = styled('section', {
         alignItems: 'center',
         justifyContent: 'center',
         maxWidth: '100%',
-        height: 609,
+        height: 474,
 
         ".swiper": {
             height: 473,
@@ -53,7 +52,6 @@ export const SectionCasesStyle = styled('section', {
                     borderRadius: 4,
 
                     img: {
-                        width: '70%',
                         height: '100%',
                         objectFit: 'cover',
                         transition: 'transform 0.3s ease-in'
@@ -72,6 +70,34 @@ export const SectionCasesStyle = styled('section', {
             ".swiper-pagination": {
                 bottom: -4,
             },
+        },
+    },
+
+    '@sm': {
+        padding: '1rem 11.2rem',
+
+        '.title-cases': {
+            h2: {
+                fontSize: 18,
+            }
+        },
+
+        '.slide-cases': {
+            height: 300,
+        },
+    },
+
+    '@xs': {
+        padding: '1rem 1rem',
+
+        '.title-cases': {
+            h2: {
+                fontSize: 18,
+            }
+        },
+
+        '.slide-cases': {
+            height: 235,
         },
     },
 })
