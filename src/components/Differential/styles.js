@@ -39,6 +39,10 @@ export const DifferentialStyle = styled('section', {
         gap: 32,
     },
 
+    '@iphone5': {
+        padding: '0px 0px',
+    },
+
     '@tmd': {
         padding: '2.7rem 3.2rem',
 
@@ -110,6 +114,10 @@ export const DifferentialStyle = styled('section', {
                 padding: 4,
             },
         },
+    },
+
+    '@xxs': {
+        padding: '3rem 1rem',
     },
 
 })

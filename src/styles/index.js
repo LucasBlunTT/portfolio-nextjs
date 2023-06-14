@@ -22,6 +22,7 @@ export const { styled, globalCss, keyframes, getCssText, theme } =
     },
 
     media: {
+        
       xxs: '(max-width: 360px)',
       xs: '(max-width: 414px)',
       sm: '(max-width: 640px)',
