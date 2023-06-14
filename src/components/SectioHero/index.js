@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function SectionHero() {
     return (
-        <SectionStyle>
+        <SectionStyle id="quemsou">
             <Container>
                 <div className="hero-left">
                     <h5>

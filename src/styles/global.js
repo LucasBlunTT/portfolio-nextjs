@@ -10,6 +10,7 @@ export const globalStyles = globalCss({
 
   html: {
     fontSize: '62.5%',
+    scrollBehavior: 'smooth',
 
     '@md': {
       fontSize: '50%',
@@ -38,7 +39,7 @@ export const globalStyles = globalCss({
   },
   ul: {
     listStyle: 'none'
-}
+  }
 });
 
 export const Container = styled('div', {

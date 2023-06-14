@@ -15,8 +15,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function SectionCases() {
+
     return (
-        <SectionCasesStyle>
+        <SectionCasesStyle id="cases">
             <Container>
                 <div className="title-cases">
                     <h2>Meus Cases</h2>

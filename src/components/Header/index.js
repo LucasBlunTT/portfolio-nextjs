@@ -1,8 +1,10 @@
+import React from 'react';
 import Link from 'next/link';
 import { HeaderStyle } from './styles';
 import { Container } from '../../styles/global';
 
 export function Header() {
+
   return (
     <HeaderStyle>
       <Container>
@@ -15,9 +17,9 @@ export function Header() {
         </div>
         <nav className='navigation'>
           <ul>
-            <li key={1}><Link href="/">Quem sou</Link></li>
-            <li key={2}><Link href="/">Diferenciais</Link></li>
-            <li key={3}><Link href="/">Cases</Link></li>
+            <li key={1}><Link href="#quemsou">Quem sou</Link></li>
+            <li key={2}><Link href="#diferenciais">Diferenciais</Link></li>
+            <li key={3}><Link href="#cases">Cases</Link></li>
           </ul>
         </nav>
       </Container>

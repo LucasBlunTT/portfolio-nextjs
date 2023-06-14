@@ -4,7 +4,7 @@ import { CardDescription } from '../CardDescription/index';
 
 export function Differential() {
     return (
-        <DifferentialStyle>
+        <DifferentialStyle id="diferenciais">
             <Container>
                 <div className="title">
                     <h2>Meus diferenciais</h2>
