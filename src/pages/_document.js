@@ -26,7 +26,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/*<script>AOS.init();</script>*/}
+        <script>AOS.init();</script>
       </body>
     </Html>
   );

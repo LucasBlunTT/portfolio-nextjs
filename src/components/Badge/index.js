@@ -34,7 +34,7 @@ export function Badge() {
 
     return (
         <BadgeStyle>
-            <Container>
+            <Container data-aos="fade-up">
                 <Swiper
                     navigation={true}
                     slidesPerView={"auto"}

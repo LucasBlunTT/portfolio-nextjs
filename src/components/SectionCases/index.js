@@ -19,11 +19,11 @@ export function SectionCases() {
     return (
         <SectionCasesStyle id="cases">
             <Container>
-                <div className="title-cases">
+                <div className="title-cases" data-aos="fade-right">
                     <h2>Meus Cases</h2>
                     <p>2022 - 2023</p>
                 </div>
-                <div className="slide-cases">
+                <div className="slide-cases" data-aos="zoom-in">
                     <Swiper
                         pagination={{
                             type: "fraction",

@@ -73,6 +73,26 @@ export const SectionCasesStyle = styled('section', {
         },
     },
 
+    '@xxl': {
+        padding: '5.7rem 11.2rem',
+
+        '.title-cases': {
+            h2: {
+                marginBottom: 36,
+            },
+        },
+    },
+
+    '@xl': {
+        padding: '5.7rem 11.2rem',
+
+        '.title-cases': {
+            h2: {
+                marginBottom: 36,
+            },
+        },
+    },
+
     '@sm': {
         padding: '1rem 11.2rem',
 

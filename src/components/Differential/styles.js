@@ -91,6 +91,10 @@ export const DifferentialStyle = styled('section', {
         },
     },
 
+    '@xl': {
+        padding: '5.7rem 11.2rem',
+    },
+
     '@xs': {
         '.title': {
             justifyContent: 'center',

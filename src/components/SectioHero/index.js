@@ -9,7 +9,7 @@ export function SectionHero() {
     return (
         <SectionStyle id="quemsou">
             <Container>
-                <div className="hero-left">
+                <div className="hero-left" data-aos="fade-right">
                     <h5>
                         Hi, I`m <strong>Lucas da Silva 👋🏻</strong>
                     </h5>
@@ -22,7 +22,7 @@ export function SectionHero() {
                         <Image src={Arrow} alt="imagem de seta pra direita" />
                     </Link>
                 </div>
-                <div className="hero-right">
+                <div className="hero-right" data-aos="fade-left">
                     <Image src={LucasProfile} alt="Imagem Lucas" priority={true} />
                 </div>
             </Container>
