@@ -36,7 +36,7 @@ export const HeaderStyle = styled('header', {
 
       li: {
         '&:not(:last-child)': {
-          marginRight: 48,
+          marginRight: 30,
         },
         a: {
           fontWeight: 400,
@@ -57,6 +57,14 @@ export const HeaderStyle = styled('header', {
 
   '@sm': {
     height: 73,
+
+    '.navigation': {
+      ul: {
+        li: {
+          marginRight: 15,
+        },
+      },
+    },
 
     '*': {
       fontSize: '10px !important',
