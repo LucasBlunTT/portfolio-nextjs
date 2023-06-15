@@ -11,7 +11,7 @@ export function SectionHero() {
             <Container>
                 <div className="hero-left" data-aos="fade-right">
                     <h5>
-                        Hi, I`m <strong>Lucas da Silva 👋🏻</strong>
+                        Hi, I`am <strong>Lucas da Silva 👋🏻</strong>
                     </h5>
                     <h1>
                         Especialista em Desenvolvimento Front-end
