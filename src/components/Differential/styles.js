@@ -1,7 +1,7 @@
 import { styled } from '../../styles';
 
 export const DifferentialStyle = styled('section', {
-    padding: '11.7rem 11.2rem',
+    padding: '7rem 2rem',
     backgroundColor: '#FFFFFF',
 
     '.title': {

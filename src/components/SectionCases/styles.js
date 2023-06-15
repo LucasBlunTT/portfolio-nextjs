@@ -1,19 +1,20 @@
 import { styled } from '../../styles';
 
 export const SectionCasesStyle = styled('section', {
-    padding: '11.7rem 11.2rem',
+    padding: '7rem 2rem',
     backgroundColor: '#FFFFFF',
 
     '.title-cases': {
         display: 'flex',
-        alignItems: 'flex-end',
+        alignItems: 'flex-start',
         justifyContent: 'space-between',
+        height: 38,
+        marginBottom: 35,
 
         h2: {
             textAlign: 'center',
             fontWeight: 600,
             fontSize: 32,
-            lineHeight: '120%',
             color: '$gray900',
         },
         p: {
@@ -21,7 +22,6 @@ export const SectionCasesStyle = styled('section', {
             fontSize: 16,
             fontWeight: 400,
             color: '$gray900',
-            lineHeight: '150%',
         },
     },
 
@@ -30,10 +30,8 @@ export const SectionCasesStyle = styled('section', {
         alignItems: 'center',
         justifyContent: 'center',
         maxWidth: '100%',
-        height: 474,
 
         ".swiper": {
-            height: 473,
             borderRadius: 4,
             display: 'flex',
             alignItems: 'center',
@@ -45,11 +43,13 @@ export const SectionCasesStyle = styled('section', {
                 justifyContent: 'center',
 
                 ".image": {
+                    width: '100%',
+                    maxWidth: 896,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     overflow: 'hidden',
-                    borderRadius: 4,
+                    borderRadius: 30,
 
                     img: {
                         height: '100%',
@@ -73,55 +73,19 @@ export const SectionCasesStyle = styled('section', {
         },
     },
 
-    '@xxl': {
-        padding: '5.7rem 11.2rem',
-
+    '@lg': {
         '.title-cases': {
+            marginBottom: 19,
+
             h2: {
-                marginBottom: 36,
+                fontSize: 24,
+            },
+
+            p: {
+                fontSize: 15,
             },
         },
     },
 
-    '@xl': {
-        padding: '5.7rem 11.2rem',
 
-        '.title-cases': {
-            h2: {
-                marginBottom: 36,
-            },
-        },
-    },
-
-    '@sm': {
-        padding: '1rem 11.2rem',
-
-        '.title-cases': {
-            h2: {
-                fontSize: 18,
-            }
-        },
-
-        '.slide-cases': {
-            height: 300,
-        },
-    },
-
-    '@xs': {
-        padding: '1rem 1rem',
-
-        '.title-cases': {
-            h2: {
-                fontSize: 18,
-            }
-        },
-
-        '.slide-cases': {
-            height: 235,
-
-            '.swiper': {
-                height: 191,
-            }
-        },
-    },
-})
+});

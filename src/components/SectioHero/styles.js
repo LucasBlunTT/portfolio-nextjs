@@ -56,10 +56,18 @@ export const SectionStyle = styled('section', {
         '.hero-right': {
             width: '100%',
             maxWidth: 520,
+            borderRadius: '3%',
+            /* From https://css.glass */
+            background: 'rgba(255, 255, 255, 0.48)',
+            borderRadius: 16,
+
+
 
             img: {
+                border: '1px solid rgba(104, 33, 122, 0.72)',
                 objectFit: 'cover',
                 height: 673,
+                borderRadius: '3%',
             },
         },
     },
