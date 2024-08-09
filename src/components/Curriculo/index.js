@@ -5,7 +5,7 @@ export function Curriculo() {
   return (
     <CurriculoStyle>
       <Link
-        href={'https://www.caslu.dev/cv.pdf'}
+        href={'https://portfolio-nextjs-eta-navy.vercel.app/cv.pdf'}
         target="_blank"
         rel="noopener noreferrer"
       >
